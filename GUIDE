@@ -1,4 +1,5 @@
 STEP 1: in the terminal(gitbash or unsa)
+  create dotenv with GEMINI_API_KEY=key_here
   type cd (folder name ninyo)
   type cd OntheGO(pwede rapud ninyo e rename)
   type cd backend
@@ -31,3 +32,6 @@ ADVANCE--POSSIBLE FUTURE ISSUE
 .env file contains api keys which is a security concern when pushing to a repository
 and deploying so I suggest seek help from AI. we have different methods of deploying and
 pushing I can't provie a specific guide for each
+
+INSTALLATION NEEDED
+-node.js
