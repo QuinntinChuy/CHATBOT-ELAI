@@ -1,0 +1,33 @@
+STEP 1: in the terminal(gitbash or unsa)
+  type cd (folder name ninyo)
+  type cd OntheGO(pwede rapud ninyo e rename)
+  type cd backend
+
+STEP 2: install dependencies(terminal gihapon)
+  type npm install
+  type npm start
+
+STEP 3: CHANGE UI DESIGN AND BUSINESS TYPE or depende
+ninyo pwede ra ipabilin ra ninyo ang CHATBOT page
+
+STEP 4: look for "chat.js" file inside routes folder
+and change the prompt base sa inyong prefer or base sa inyong
+system
+
+NOTE THIS PART OF CODE: 
+// System prompt: makes AI behave like a motor rental assistant
+    const systemPrompt = `
+      You are OntheGo, a friendly and helpful motor rental assistant.
+      You answer questions about motorcycles, rental costs, booking steps, and rental rules.
+      - Recommend the best motor based on user needs (city, long trips, style).
+      - Calculate total rental costs.
+      - Explain rules in a clear, polite, and friendly way.
+      - Never give answers unrelated to motor rentals.
+      - Be concise but professional.
+    `;
+
+ADVANCE--POSSIBLE FUTURE ISSUE
+
+.env file contains api keys which is a security concern when pushing to a repository
+and deploying so I suggest seek help from AI. we have different methods of deploying and
+pushing I can't provie a specific guide for each
